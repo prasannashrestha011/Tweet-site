@@ -1,0 +1,61 @@
+
+main{
+    border: 1px solid brown;
+    background-color: darkblue;
+    width: 110%;
+    margin: 0 auto;
+}
+.list-user-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-user-container h4{
+    margin-top:31px;
+}
+.list-header-detail{
+    border:1px solid black;
+    width: 459px;
+}
+.list-of-users{
+    list-style: none;
+}
+.list-of-users li{
+    color: aliceblue;
+}
+.list-user-container .btn-container{
+    padding-right: 20px;
+}
+.list-of-users li button{
+    height: 33px;
+
+}
+.date-details{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 15px;
+ font-weight: bold;
+}
+.lists-btns-after{
+    width:80px;
+    border-radius: 5px;
+    background-color: green;
+    color: aliceblue;
+
+}
+.lists-btns-before{
+    width:80px;
+   
+    border-radius: 5px;
+    background-color: rgb(192, 0, 0);
+    color: aliceblue;
+   
+}
+
+.code-red{
+    color: red;
+}
+.code-blue{
+    color: skyblue;
+}

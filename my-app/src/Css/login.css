@@ -1,0 +1,52 @@
+html, body {
+     
+    margin: 0;
+    padding: 0;
+}
+.login-body {
+    background-color: blueviolet;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-box{
+   
+    width: 450px;
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.input-container{
+    width: 250px;
+    height: 35px;
+    border-radius: 15px;
+}
+.submit-btn{
+    margin-top: 15px;
+    border-radius: 15px;
+    height: 35px;
+    background-color: orange;
+    color: white;
+    transition: background-color 0.3s;
+    width: 250px;
+}
+.submit-btn:hover{
+    margin-top: 15px;
+    border-radius: 15px;
+    height: 35px;
+    
+    background-color: black;
+    color: white;
+
+}

@@ -1,0 +1,11 @@
+.transaction_table_{
+    border: 1px solid black;
+}
+.transaction_table_ ul{
+    list-style: none;
+}
+.transaction-container{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}

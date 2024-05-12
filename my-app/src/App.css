@@ -1,0 +1,262 @@
+
+.display-holder{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav-container{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+background-color: white;
+  height: 40px;
+}
+.header-list{
+  margin-left:50px;
+}
+.input-field{
+  height: 35px;
+  width: 250px;
+  border-radius: 11px 0px 0px 11px ;
+  margin-left:50px;
+  outline: none;
+}
+
+.form-submit-btn{
+  height: 41px;
+  width: 80px;
+  border-radius:0px 11px 11px 0px;
+  
+}
+.user-detail{
+  display: flex;
+  flex-direction: column;
+  gap:0px;
+
+}
+.user-detail-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+ 
+  width:100%;
+  padding-left: 10px;
+  background-color: aquamarine;
+  border-bottom: 1.5px solid grey;
+}
+.user-detail-header button{
+  margin-right: 25px;
+}
+.user-detail-header-user-info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 11px;
+
+}
+.user-detail-profile-img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover; 
+}
+.list-container{
+  border: 1px solid red;
+  background-color: aqua;
+  width: 1200px;
+  margin-left:50px;
+  border-radius: 20px;
+  padding:20px;
+  display:flex;
+  flex-direction: column;
+  gap: 2px;
+ 
+}
+.list-container.loading{
+  opacity: 0.5;
+}
+.list-data{
+  list-style-type: none;
+ 
+
+  border-radius: 15px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 550px;
+  gap:25px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  cursor: pointer;
+  
+}
+.list-data.loading{
+  opacity: 0.5;
+}
+.list-content{
+
+  padding-left: 10px;
+}
+.font-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:5px;
+  margin-right:10px;
+}
+.delete-font-img{
+  width: 22px;
+
+}
+.edit-font-img{
+  width: 35px;
+ 
+}
+.upload-font-img{
+  width: 30px;
+ 
+}
+.file-input-field{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 150px;
+    height: 46px;
+  
+  
+    margin-top: 8px;
+  
+}
+
+#upload-btn{
+  margin-top:1px;
+}
+#form-submit-btn-file{
+  margin-left:12px;
+  height: 41px;
+ 
+}
+
+.input-field-list-file{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+}
+input[name="filebase64"]{
+  display: none;
+}
+.post-box-container{
+  position: absolute;
+  left: 65%;
+  top: 1px;
+  width: 390px;
+  height: 180px;
+  border: 1px solid black;
+  border-radius: 10px;
+
+  overflow: hidden;
+}
+.post-box-container nav{
+
+  background-color: skyblue;
+  cursor:pointer;
+}
+.post-box-container nav span{
+
+  font-weight: bold;
+  font-size: 22px;
+  font-family: 'Courier New', Courier, monospace;
+  cursor:pointer;
+}
+.post-box-container   p{
+  font-size: 19px;
+  padding-left: 10px;
+  cursor:pointer;
+}
+.nav-btn-container{
+  display: flex;
+  gap:5px;
+}
+.nav-btn-container button{
+  background-color: rgb(148, 231, 231);
+  height: 25px;
+  box-shadow: 0.5px 0px 0 0.5px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  
+}
+.nav-btn-container button:active{
+  background-color: beige;
+}
+.like-icon{
+  height: 25px;
+  transition: 0.1s ease-in-out;
+}
+.like-icon:active {
+  transform: scale(0.8);
+}
+
+
+.like-container{
+  display: flex;
+  width: 78px;
+
+  background-color: aliceblue;
+  
+  align-items: center;
+}
+
+.like-container span{
+  font-size: 18px;
+ 
+  text-align: center;
+  width: 35px;
+  height: 25px;
+}
+.liked_users_name{
+  display: flex;
+  position: absolute;
+  top:38%;
+  left: 34%;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 500px;
+  height: 280px;
+  background-color: rgb(36,37,38);
+  color: white;
+  font-size: 28px;
+  padding-top: 20px;
+  align-items: center;
+  border-radius: 15px;
+  
+}
+.commented_users{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  position: relative;
+  align-items: center;
+  background-color: whitesmoke;
+
+}
+.commented_users ul{
+  list-style: none;
+
+}
+.commented_users ul li{
+  border: 1px solid black;
+  height: 25px;
+  color: 	rgb(24,25,26);
+  width: 280px;
+  margin-bottom: 15px;
+}
